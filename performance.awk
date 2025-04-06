@@ -59,11 +59,10 @@ END {
     packetLoss = (totalLost / totalPackets) * 100  # Packet loss percentage
     overhead = (pktSize / (recvdSize * 400)) * 100  # Overhead percentage
 
-    # Output the results to the file throughput.txt
-    printf "Throughput (kbps): %.2f\n", throughput > "throughput.txt"
-    printf "PDR (%%): %.2f\n", pdr > "throughput.txt"
-    printf "Average Delay (s): %.2f\n", avgDelay > "throughput.txt"
-    printf "Packet Loss (%%): %.2f\n", packetLoss > "throughput.txt"
-    printf "Overhead (%%): %.2f\n", overhead > "throughput.txt"
+    # Output the results to the file performance.txt
+    printf "Throughput (kbps): %.2f\n", throughput > "performance.txt"
+    printf "PDR (%%): %.2f\n", pdr > "performance.txt"
+    printf "Average Delay (s): %.2f\n", avgDelay > "performance.txt"
+    printf "Packet Loss (%%): %.2f\n", packetLoss > "performance.txt"
+    printf "Overhead (%%): %.2f\n", overhead > "performance.txt"
 }
-
