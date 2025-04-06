@@ -129,6 +129,7 @@ To view the simulation animation, use the nam command (nam nameOfTheProtocol_num
 ```
 nam AODV_10.nam
 ```
+![ns2_ss](https://github.com/user-attachments/assets/c751c9f9-c627-4cd4-978b-761730fe5781)
 
 ---
 ---
@@ -146,9 +147,10 @@ OR
 ```
 python3 proactive_routing.py
 ```
+![procative_ss](https://github.com/user-attachments/assets/9f77d7bd-cf22-4e72-8c5d-fa28ac4e167b)
+---
+---
 
----
----
 
 ## Run the Python GUI for Reactive Routing (AODV):
 Navigate to the Python GUI directory:
@@ -163,9 +165,10 @@ OR
 ```
 python3 reactive_routing.py
 ```
+![reactive_ss](https://github.com/user-attachments/assets/4d007159-50b7-4cb9-9919-6a92dc3bbfe9)
+---
+---
 
----
----
 
 ## Analyze Performance Metrics:
 After running the NS2 simulation, the performance.awk script will generate performance.txt with the calculated metrics.
@@ -185,9 +188,10 @@ OR
 python3 graph.py
 ```
 This script reads the metrics from performance.txt and generates a bar chart to visualize the results.
+![graph_ss](https://github.com/user-attachments/assets/b8406fda-b2bd-4360-a446-aa8b794540b8)
+---
+---
 
----
----
 
 ## Usage
 ### NS2 Simulation (Tcl Script)
